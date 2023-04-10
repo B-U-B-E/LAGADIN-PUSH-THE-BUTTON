@@ -38,7 +38,7 @@ bodyStyle.transition = "all 1s linear"
             button.setAttribute("style", "transition: all 1s linear 0s; height: 0%; opacity:0; cursor:auto; font-weight : bold;")
             button.innerText = "Beauty...";
             cardsContainer.style.display = "none";
-            button.style.overflow = "hidden"
+            button.style.overflow = "auto";
         
 
         })
