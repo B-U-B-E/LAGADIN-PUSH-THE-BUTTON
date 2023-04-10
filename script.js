@@ -30,6 +30,7 @@ bodyStyle.transition = "all 1s linear"
             button.style.width = "100%";
             // button.style.transform = "translate(-50%) rotateY(360deg)";
             button.append(cardsContainer);
+            cardsContainer.style.overflow = "scroll";
 
         })
 
@@ -45,7 +46,8 @@ bodyStyle.transition = "all 1s linear"
 
         })
 
-        let up = document.getElementById("up");
+let up = document.getElementById("up");
+
 
 
 
