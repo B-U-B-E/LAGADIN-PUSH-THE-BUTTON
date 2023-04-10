@@ -2,8 +2,11 @@
     box-sizing: border-box;
 }
 
+
+
 body {
     margin: 0;
+    background-color: orangered;
 
 }
 
@@ -37,7 +40,7 @@ body.active {
 
 .btn.active {
     background-color: green;
-    height: 100%;
+
 }
 
 
@@ -54,6 +57,7 @@ body.active {
 
 #cards-container.active {
     display: block;
+    overflow: auto;
 
 
 

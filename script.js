@@ -2,7 +2,7 @@ let bodyStyle = document.body.style;
 
 
 
-bodyStyle.transition = "all 1s linear"
+bodyStyle.transition = "all 0.3s linear"
 
         let mediaDiv = document.querySelector(".media");
         document.body.appendChild(mediaDiv);
@@ -16,11 +16,12 @@ bodyStyle.transition = "all 1s linear"
         let cardsContainer = document.getElementById("cards-container");
 
         let button = document.getElementById("button");
-        mediaDiv.append(button);
+mediaDiv.append(button);
+
         button.addEventListener("click", function buttonGetClicked() {
             
             document.body.classList.toggle('active')
-            document.body.transition = "all 1s linear"
+            document.body.transition = "all 0.3s linear"
             cardsContainer.classList.toggle('active')
             button.classList.toggle('active')
             button.style.transition = "all 1s linear"
@@ -30,6 +31,7 @@ bodyStyle.transition = "all 1s linear"
             button.style.width = "100%";
             // button.style.transform = "translate(-50%) rotateY(360deg)";
             button.append(cardsContainer);
+            
             cardsContainer.style.width = "100%";
             cardsContainer.style.height = "100%";
             
