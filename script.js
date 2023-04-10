@@ -6,6 +6,8 @@ bodyStyle.transition = "all 1s linear"
 
         let mediaDiv = document.querySelector(".media");
         document.body.appendChild(mediaDiv);
+        mediaDiv.style.height = "100vh";
+        mediaDiv.style.position = "relative";
         
 
 
