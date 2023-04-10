@@ -57,7 +57,8 @@ body.active {
 
 #cards-container.active {
     display: block;
-    overflow: auto;
+    overflow-x: hidden;
+    overflow-y: auto;
 
 
 
