@@ -37,6 +37,7 @@ body.active {
 
 .btn.active {
     background-color: green;
+    height: 100%;
 }
 
 
