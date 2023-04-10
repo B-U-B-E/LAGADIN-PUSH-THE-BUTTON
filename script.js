@@ -1,7 +1,7 @@
 let bodyStyle = document.body.style;
 
 
-bodyStyle.overflow = "hidden";
+
 bodyStyle.transition = "all 1s linear"
 
         let mediaDiv = document.querySelector(".media");
@@ -38,7 +38,7 @@ bodyStyle.transition = "all 1s linear"
             button.setAttribute("style", "transition: all 1s linear 0s; height: 0%; opacity:0; cursor:auto; font-weight : bold;")
             button.innerText = "Beauty...";
             cardsContainer.style.display = "none";
-            bodyStyle.overflow = "auto";
+            
         
 
         })
@@ -59,7 +59,7 @@ bodyStyle.transition = "all 1s linear"
                 mediaDiv.style.top = "0";
                 mediaDiv.style.width = "100%";
                 button.style.opacity = "1";
-                bodyStyle.overflow = "auto"
+                
                 
                 
                 
