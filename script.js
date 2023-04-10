@@ -1,7 +1,7 @@
 let bodyStyle = document.body.style;
 
 
-bodyStyle.overflow = "scroll";
+//bodyStyle.overflow = "scroll";
 bodyStyle.transition = "all 1s linear"
 
         let mediaDiv = document.querySelector(".media");
