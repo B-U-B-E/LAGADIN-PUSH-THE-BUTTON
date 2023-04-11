@@ -24,7 +24,7 @@ mediaDiv.append(button);
             document.body.transition = "all 0.3s linear"
             cardsContainer.classList.toggle('active')
             button.classList.toggle('active')
-            button.style.transition = "all 1s linear"
+            button.style.transition = "all 0.3s linear"
             button.innerText = "Click or double Click to see photo...";
         /*button.innerHTML =
                 `<h1 style = font-size:20px>Lagadin was clicked...click again</h1><span style="font-size:50px; ">⬇</span>`*/
